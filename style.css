@@ -1,0 +1,90 @@
+.navbar{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#navbarTogglerDemo02{
+    position: absolute;
+    right: 20px;
+    color: white;
+}
+
+/* main  */
+.main{
+    background-color: black;
+    color: white;
+}
+.main1{
+    text-align: center;
+    padding: 150px 132px;
+}
+.song-item{
+    padding: 5px 0px;
+    border-width: 2px;
+    border-color: white;
+    border-style: double;
+    border-radius: 34px;
+    margin-top: 8px;
+}
+
+.bottom{
+    position: sticky ;
+    height: 100px;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icon{
+    color: white;
+    padding-top: 10px;
+}
+
+.gif{
+    position: absolute;
+    left: 150px;
+    top: 35px;
+    color: white;
+    margin-right: 50px;
+}
+#gif2{
+    width: 100px;
+}
+.gif1{
+    opacity: 0;
+    transition: ease-in-out;
+}
+
+@media (max-width:900px) {
+    .main1{
+        text-align: center;
+        padding: 10px 13px;
+        width: 50%;
+    }
+    .main2{
+        width: 205px;
+        height: 900px;
+        position: absolute;
+        top: 160px;
+        right: 10px;
+    }
+    #images{
+        position: absolute;
+        right: 95px;
+    }
+    #masterSongName{
+        position: absolute;
+        right: 55px;
+        top: 5px;
+    }
+    #gif2{
+        width: 60px;
+        position: absolute;
+        right: -20px;
+    }
+}
